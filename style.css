@@ -1,0 +1,270 @@
+/* Google Fonts Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+body {
+    height: 100%;
+    background-color: #83008F;
+    margin: 0;
+    background-image: url(https://i.imgur.com/QRm86Oc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, #af00bf), color-stop(0.72, #83008F), color-stop(0.86, #240053));
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar img {
+    /* padding-left: 100px; */
+    width: 250px;
+    height: auto;
+}
+
+.nav-item {
+    background-color: #83008F;
+    color: #fff;
+    padding: 5px;
+}
+
+.form-div {
+    margin: 50px auto;
+    padding: 25px 15px 10px 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.btn {
+    background-image: linear-gradient(to right, #83008F, #240053);
+    border-color: #83008F;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-lg {
+    color: #fff;
+}
+
+.btn:hover {
+    color: #fff;
+    box-shadow: none;
+}
+
+.btn:focus {
+    background-color: #83008F;
+    border-color: #83008F;
+    box-shadow: none;
+}
+
+.btn:active {
+    border-color: #83008F;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #83008F;
+    border-width: 3px;
+}
+
+.form-group {
+    padding-top: 5px;
+}
+
+.form p {
+    font-size: .89;
+}
+
+.form-div.login {
+    margin-top: 100px;
+}
+
+.logout {
+    color: red;
+}
+
+.mb-3 {
+    margin-top: 25px;
+}
+
+.mb-3:focus {
+    box-shadow: none;
+    border-color: #83008F;
+    border-width: 3px;
+}
+
+.mb-3:disabled {
+    color: #83008F;
+    background-color: #83008F;
+}
+
+.btn:hover {
+    background-color: #a102b0;
+    border-color: #83008F;
+}
+
+.card-img-top {
+    width: auto;
+    height: 200px;
+    padding: 5px;
+}
+
+.form-div h4,
+h5,
+p {
+    color: #83008F;
+}
+
+.form-div {
+    color: #83008F;
+    /* margin: 5px; */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+a.logout:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.btn-danger {
+    text-decoration: none;
+    color: red;
+}
+
+.btn-danger:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.gap-2 {
+    padding-top: 10px;
+}
+
+p.lead {
+    color: #fff;
+}
+
+div#events-signup-rd.gap-2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+a#nam.text-center {
+    color: #83008F;
+}
+
+a#aam.text-center {
+    color: #83008F;
+}
+
+.section-hero h2:after {
+    content: "";
+    width: 65px;
+    height: 7px;
+    background: #83008F;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.top {
+    padding-bottom: 50px;
+    background: url(https://images.pond5.com/abstract-white-low-poly-background-footage-085983492_prevstill.jpeg);
+    opacity: 3;
+}
+
+h2 {
+    padding-top: 0px;
+    color: #83008F;
+}
+
+h2#header {
+    padding-top: 50px;
+}
+
+
+/* #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#page-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+} */
+
+#tm.text-muted {
+    color: #83008F !important;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 150px;
+}
+
+#footer {
+    position: relative;
+    margin-top: -100px;
+    height: 120px;
+    clear: both;
+}
+
+div#order.row {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-toolbar {
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
